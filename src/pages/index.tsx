@@ -4,6 +4,8 @@ import Link from '../components/Head/Link'
 
 import Title from '../components/Head/Title'
 
+import Homepage from '../components/Home'
+
 import GlobalStyle from './global'
 
 export default function Home() {
@@ -13,7 +15,7 @@ export default function Home() {
       <Link />
       <Title name="Home" />
       <GlobalStyle />
-      <h1></h1>
+      <Homepage />
     </>
   )
 }

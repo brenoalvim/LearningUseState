@@ -1,16 +1,16 @@
-# PatternNextTs
+# LearningUseState
 
 **en/pt**
 
 ## About
 
 ~~~
-A standard template for starting projects using Next.js using TypeScript.
+Small project for learning the react hook, useState with Next.js
 ~~~
 
 ## Sobre
 ~~~
-Um modelo padrão para iniciar projetos usando Next.js usando TypeScript.
+Pequeno projeto para aprender o react hook, useState com Next.js
 ~~~
 
 Requirements / Requisitos

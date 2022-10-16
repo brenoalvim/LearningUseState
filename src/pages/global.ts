@@ -1,9 +1,9 @@
 import { createGlobalStyle } from 'styled-components'
 
 export default createGlobalStyle`
-* {
-  scroll-behavior: smooth;
-}
+  * {
+    scroll-behavior: smooth;
+  }
    body{
     margin: 0;
     padding: 0;
@@ -13,4 +13,10 @@ export default createGlobalStyle`
     --brand-color: #0f172a;
   }
 
+  .pattern {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
 `

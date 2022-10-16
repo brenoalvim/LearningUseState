@@ -6,8 +6,10 @@
     "start": "next start"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.2.0",
     "@types/styled-components": "^5.1.25",
     "eslint": "^8.16.0",
+    "font-awesome": "^4.7.0",
     "next": "latest",
     "react": "17.0.2",
     "react-dom": "17.0.2",
