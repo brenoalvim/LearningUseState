@@ -4,9 +4,11 @@ export const Div = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: wrap !important;
+  gap: 15px;
   width: 100vw;
   height: 100vh;
+  min-height: 375px;
 
   .input, .card {
     display: flex;

@@ -16,7 +16,6 @@ export default function Card(props: cardProps) {
           <div className="inner-div">
             <div className="front">
               <div className="front__bkg-photo">
-                {/* <img src={`https://github-readme-stats.vercel.app/api/top-langs?username=${props.github}&show_icons=true&locale=en&layout=compact&hide_border=true&theme=react&langs_count=10`} alt="" /> */}
               </div>
               <div className="front__face-photo">
                 <img src={`https://github.com/${props.github}.png`} alt="" />
@@ -41,7 +40,8 @@ export default function Card(props: cardProps) {
                   <i className="fab fa-github-square" aria-hidden="true"></i>
                 </a>
                 <a
-                  href={`https://instagram.com/${props.instagram}`} target="_blank"
+                  href={`https://instagram.com/${props.instagram}`}
+                  target="_blank"
                   className="social-icon"
                 >
                   <i className="fab fa-instagram" aria-hidden="true"></i>

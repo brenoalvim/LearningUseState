@@ -8,18 +8,28 @@ import { useState } from 'react'
 
 export default function Homepage() {
   const [name, setName] = useState('')
-  const [userGithub, setUserGithub] = useState('')
   const [local, setLocal] = useState('')
   const [instagram, setInstagram] = useState('')
+  const [github, setGithub] = useState('')
 
   return (
     <>
       <Div>
         <div className="input">
-          <Input getName={setName} getGitHub={setUserGithub} getLocal={setLocal} getInstagram={setInstagram} />
+          <Input
+            getName={setName}
+            getLocal={setLocal}
+            getGitHub={setGithub}
+            getInstagram={setInstagram}
+          />
         </div>
         <div className="card">
-          <Card name={name} github={userGithub} local={local} instagram={instagram} />
+          <Card
+            name={name}
+            local={local}
+            github={github}
+            instagram={instagram}
+          />
         </div>
       </Div>
     </>
