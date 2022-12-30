@@ -5,12 +5,12 @@
 ## About
 
 ~~~
-Small project for learning the react hook, useState with Next.js
+Small project for learning the react hook, useState, with Next.js
 ~~~
 
 ## Sobre
 ~~~
-Pequeno projeto para aprender o react hook, useState com Next.js
+Pequeno projeto para aprender o react hook, useState, com Next.js
 ~~~
 
 Requirements / Requisitos
